@@ -2,6 +2,7 @@ import React, { useLayoutEffect, useRef } from "react";
 import gsap from "gsap";
 import ScrollTrigger from "gsap/ScrollTrigger";
 import IntroPanel from "./components/IntroPanel";
+import SecondPanel from "./components/SecondPanel";
 import Navbar from "./components/Navbar";
 import { Box, Flex, Spacer, Image } from "@chakra-ui/react";
 
@@ -35,7 +36,10 @@ export default function Page() {
       <Box ref={component} pos={"relative"}>
         <Box ref={slider} className="container">
           <IntroPanel />
-          <div className="panel red">ONE</div>
+          {/* <div className="panel red">ONE</div> */}
+          <div className="panel">
+            <SecondPanel />
+          </div>
           <div className="panel orange">TWO</div>
           <div className="panel purple">THREE</div>
         </Box>
