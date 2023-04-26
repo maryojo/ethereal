@@ -30,6 +30,11 @@ h1{
   font-family: 'Playfair Display', serif;
 }
 
+.h3{
+  font-size: 44px;
+  font-family: 'Playfair Display', serif;
+}
+
 .lastContainer {
   display: flex;
   height: 100vh;
